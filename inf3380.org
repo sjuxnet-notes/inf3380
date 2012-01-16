@@ -1,0 +1,24 @@
+* Motivations
+  - Many problems in natural sciences benefit from large scale computations
+    - more details
+    - better accuracy
+    - more advanced models
+  - Example of huge computations - weather simulations
+  - Traditional sigle-CPU computers are limited in capacity
+    - clock freq 2 ~ 5 GHZ
+    - memory     2 ~ 8 GB
+  - Parallel computers are comming to the mainstream market
+    - Multi-CPU with more cores on a chip
+    - Many chips on one machine.
+    - GPUs are more and more parallel and are used more 
+      and more for heavy computations
+* Random notes
+  - Important with shared memory internally on a machine
+  - Not confuse multitasking with parallel computing
+    - Multitasking on multicore cpus used for several programs, for instance OS and browser
+    - Paralel computing is for computing one larger problem divided in smaller tasks
+* Learning goals
+  - ``Parallel programming = seriel programming + finding parallelity + overhead´´
+* Kort inføring i C
+
+#+INCLUDE: "code/first.c" src C
